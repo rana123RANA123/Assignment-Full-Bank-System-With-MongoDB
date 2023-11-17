@@ -1,0 +1,20 @@
+$primary: #0077b6;
+$success: #04aa6d;
+@import '../node_modules/bootstrap/scss/bootstrap.scss';
+@import './scss/Home.scss';
+
+
+#root {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+
+.tableSuccess {
+    background-color: #04aa6d;
+}

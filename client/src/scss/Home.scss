@@ -1,0 +1,18 @@
+#homePicture {
+    background-image: url('../assets/img/homePicture.jpg');
+    height: 562px;
+    width: 100%;
+    // min-height: calc(100vh - 136px);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.boxShadow {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.dashboardBox {
+    height: 300px;
+    width: 700px;
+}
